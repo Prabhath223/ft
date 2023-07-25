@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Location Icons with Message Box</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* For better visibility of the example */
+    body {
+      margin: 80px 200px;
+      background-color: #ffffff;
+    }
+
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .location-icon {
+      position: absolute;
+      font-size: 24px;
+      color: red;
+    }
+
+    .location-icon:nth-child(1) {
+      top: 50px;
+      left: 80px;
+    }
+
+    .location-icon:nth-child(2) {
+      top: 120px;
+      left: 200px;
+    }
+
+    .imgg {
+      height: 400px;
+      width: 800px;
+    }
+
+    .l1 {
+      margin-left: 300px;
+      margin-top: 20px;
+    }
+
+    .l2 {
+      margin-left: -285px;
+      margin-top: 150px;
+    }
+
+    /* Message box styling */
+    .message-box {
+      position: absolute;
+      top: 113px;
+      left: 351px;
+      width: 150px;
+      background-color: #4587b1;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      
+      font-size: small;
+    }
+     .message-boxx {
+      position: absolute;
+      top: 197px;
+      left: 726px;
+      width: 150px;
+      background-color: #4587b1;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 0%;
+      font-size: small;
+      height: 31px;
+     margin: 0;
+    }
+    p{
+        margin: 0;
+    }
+
+    /* .message-box .arrow {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #4587b1;
+      top: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+    } */
+
+    .message-box p {
+      margin: 0;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="image-container">
+    <img src="bb.png" class="imgg" alt="Map Image">
+    <i class="fas fa-map-marker location-icon l1"></i>
+    <i class="fas fa-map-marker location-icon l2"></i>
+    <div class="message-box">
+      <div class="arrow"></div>
+      <p>Phone: 8142625955<br>IMEI: 356153100576682 </p>
+      <!-- Add other message content as needed -->
+    </div>
+  </div>
+      <div class="message-boxx">
+   
+      <p>Phone: 9908593781<br>IMEI: 567157843590761 </p>
+      <!-- Add other message content as needed -->
+    </div>
+  </div>
+</body>
+
+</html>
